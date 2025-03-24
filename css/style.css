@@ -1,18 +1,31 @@
 :root {
+    --primary: #0ec40e;
+    --second: #8b4513;
     --yellon: #FAD929;
     --green: #81BD4F;
     --blue: #5FB4EF;
     --violet: #7B57A7;
     --pink: #D85D8D;
     --orange: #FF862E;
+    --font-size: 16px;
+    --font: 'font';
 }
 
-body {
-    margin: 5vw;   
-    background-color: black; 
-    color: var(--yellon);
+@font-face {
+    font-family: 'font';
+    src: url(MedulaOne-Regular.ttf);
 }
 
+.corpo {
+    margin: 10vw 5vw;   
+    background-image: url(../image/in-black.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 90vh;
+    color: var(--second);
+    font: var(--font);
+}
+/* 
 header {
     display: flex;
     flex-direction: column;
@@ -88,4 +101,4 @@ a {
         width: 65vw;
     }
 
-}
+} */
