@@ -81,7 +81,7 @@ body {
     border: solid 2px #8B4513;
     border-radius: 1rem;
     width: 80%;
-    height: 4rem;
+    min-height: 4rem;
     padding: 0.5rem;
 }
 
@@ -89,6 +89,10 @@ body {
     height: auto;
     width: 4rem;
     margin-right: 1rem;
+}
+
+.servicos {
+	padding: 0.5rem;
 }
 
 .rodape p{
